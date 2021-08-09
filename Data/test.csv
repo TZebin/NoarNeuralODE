@@ -1,0 +1,2 @@
+﻿regno,From,To,Trans,Status,T_start,T_stop,T_diff,gender_male,ageons,"(0,25]","(25,30]","(30,100]",ss_1,ss_2,ss_3,Days_on_DMARDs,log(DMARDS),Comorbidities,dead_status
+115530,3,6,36,0,13,13.5,0.5,0,60,1,0,0,0,1,0,4284,3.631849462,2,1
