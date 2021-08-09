@@ -36,7 +36,7 @@ df = pd.read_csv("Data/dataframe_survNODE_v2.csv")
 
 df_trainval = df.sample(n=25422)
 
-df_train = df_trainval.sample(n=2500)
+df_train = df_trainval.sample(n=25000)
 df_val = df_trainval[~df_trainval.index.isin(df_train.index)].sample(n=1000)
 
 def get_dataset(df,Tmax):
